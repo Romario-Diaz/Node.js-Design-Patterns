@@ -24,7 +24,7 @@ export class ParallelStream extends Transform {
       done();
     }
   }
-  _onCompleted(err) {
+  _onComplete(err) {
     this.running--;
     if (err) {
       return this.emit("error", err);
