@@ -25,6 +25,6 @@ pipeline(
       console.error(err);
       process.exit(1);
     }
-    console.log("All urls have been checked");
+    console.log("All urls have been checked!!");
   }
 );
